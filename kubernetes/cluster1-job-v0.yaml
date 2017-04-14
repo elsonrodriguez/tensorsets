@@ -30,8 +30,7 @@ spec:
           mountPath: /shared
       volumes:
       - name: shared
-        hostPath:
-          path: /shared
+        emptyDir: {}
       restartPolicy: Never
 ---
 apiVersion: v1

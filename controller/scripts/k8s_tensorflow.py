@@ -71,8 +71,8 @@ spec:
           mountPath: /shared
       volumes:
       - name: shared
-        hostPath:
-          path: /shared
+        emptyDir: {{}}
+
 """)
 WORKER_SVC = (
     """apiVersion: v1
@@ -144,8 +144,8 @@ spec:
           mountPath: /shared
       volumes:
       - name: shared
-        hostPath:
-          path: /shared
+        emptyDir: {{}}
+
 """)
 PARAM_SERVER_SVC = (
     """apiVersion: v1
