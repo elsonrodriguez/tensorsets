@@ -1,7 +1,7 @@
 FROM elsonrodriguez/tf-dist-test-client:tensorset-example-0.0
 MAINTAINER Elson Rodriguez <elson.rodriguez@gmail.com>
 
-ENV KUBECTL_VERSION v1.4.0
+ENV KUBECTL_VERSION v1.6.4
 
 ADD k8s_dist_mnist_wrapper.sh /
 RUN chmod +x /k8s_dist_mnist_wrapper.sh

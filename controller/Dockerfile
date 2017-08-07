@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 MAINTAINER Elson Rodriguez <elson.rodriguez@gmail.com>
 
-ENV KUBECTL_VERSION v1.4.0
+ENV KUBECTL_VERSION v1.6.4
 
 ADD scripts /scripts
 ADD tensorset-controller.sh /

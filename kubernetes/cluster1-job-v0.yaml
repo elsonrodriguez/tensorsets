@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: tf-client
-        image: elsonrodriguez/tf-dist-test-client-k8s:tensorset-example-0.0
+        image: elsonrodriguez/tf-dist-test-client-k8s:tensorset-example-0.1
 #        command:
 #        - sh
 #        - -c
